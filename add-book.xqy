@@ -80,9 +80,11 @@ xdmp:set-response-content-type("text/html"),
 '<!DOCTYPE html>',
 <html>
     <head>
-        <title>Add Book</title>
+        <title>Add Book</title> 
     </head>
     <body>
+ 
+        <h1>Add Books</h1>    
         {
         if (fn:exists($id) and $id ne '') then (
             <div class="message">Book Saved! ({$id})</div>
