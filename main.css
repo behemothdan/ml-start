@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background-image: url(http://inventory.behemothdan.com/style/images/city-houses-night-canal.jpg);
+    background-size: cover;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#main {
+    margin: auto;
+    width:50%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;    
+}
+
+#main h1 {
+    font-size:48px;
+}
+#main .booksearch input {
+    width: 100%;
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 30px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #999999;
+}
+
+*:focus {
+    outline: none;
+    outline-style: none;    
+}
+
+.book {
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+    float: left;
+    border: solid 1px;
+    border-radius: 8px;
+    padding: 5px;
+    border-color: #999999;
+    background-color: rgba(255, 255, 255, 0.9);    
+}
+
+.booktitle {
+    width: 60%;
+    float: left;
+    font-size: 24px;
+}
+
+.category {
+    width: 30%;
+    float: right;
+    font-size: 16px;
+    text-align: right;
+}
+
+.book .details {
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+}
+
+.book .details span {    
+    width: 28%;
+    float: left;
+}
+
+.book .details span.editlink {
+    float: right;
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    width: 18px;
+}
+
+.bookupdate {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.bookupdate label {
+    width: 100px;
+    display: inline-block;
+}
+
+.bookupdate input[type="text"] {
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 3px;    
+}
+
+div[class*="alert"] {
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 10px;
+    width: 100%;
+}
+
+.alert-success {    
+    background-color: #d4edda;
+    color: #063611;
+    border-color: #032c0c;
+}
+
+.alert-error {    
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #35060a;
+}

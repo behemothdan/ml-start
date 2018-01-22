@@ -1,0 +1,6 @@
+<http-server-properties xmlns="http://marklogic.com/manage">
+  <server-name>BookDatabase</server-name>
+  <root>/Users/behemothdan/sites/ml-start</root>
+  <port>8080</port>
+  <content-database>Documents</content-database>
+</http-server-properties>
